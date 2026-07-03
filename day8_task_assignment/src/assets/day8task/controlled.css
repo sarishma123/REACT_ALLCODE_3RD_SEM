@@ -1,0 +1,59 @@
+form {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+}
+
+
+
+.form-fill {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 15px;
+  box-shadow: #dc3545;
+}
+.form-fill email{
+  box-shadow: #dc3545;
+}
+label {
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+
+input:focus {
+  outline: none;
+  border-color: blue;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+input:invalid {
+  border-color: #dc3545;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: darkblue;
+}

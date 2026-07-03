@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background: whitesmoke;
+  align-items: center;
+  height: 80px;
+  width: auto;
+}
+nav h1{
+    color: rgb(57, 57, 37);
+    font-size: 30px;
+}
+
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: rgb(131, 131, 131);
+}
